@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Konnect-Regular";
+  src: url("/src/assets/fonts/Konnect.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Konnect-Medium";
+  src: url("/src/assets/fonts/Konnect.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/src/assets/fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("/src/assets/fonts/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-archivo: "Archivo", sans-serif;
+  --font-konnect-regular: "Konnect-Regular", sans-serif;
+  --font-konnect-medium: "Konnect-Medium", sans-serif;
+  --font-gilroy-medium: "Gilroy-Medium", sans-serif;
+  --font-gilroy-semibold: "Gilroy-SemiBold", sans-serif;
+}
+
+.font-archivo {
+  font-family: var(--font-archivo);
+}
+.font-konnect-regular {
+  font-family: var(--font-konnect-regular);
+}
+.font-konnect-medium {
+  font-family: var(--font-konnect-medium);
+}
+.font-gilroy-medium {
+  font-family: var(--font-gilroy-medium);
+}
+.font-gilroy-semibold {
+  font-family: var(--font-gilroy-semibold);
+}
+
+html {
+  scroll-behavior: smooth;
+}
